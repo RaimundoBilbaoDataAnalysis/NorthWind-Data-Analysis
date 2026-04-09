@@ -45,12 +45,15 @@ OBJETIVO: Transformar datos transaccionales en KPIs estratégicos.
 CREATE VIEW view_sales_details AS
 SELECT 
 	od.id, od.order_id, od.product_id, o.employee_id, o.customer_id, od.quantity, od.unit_price,
-	od.discount, o.order_date, o.shipped_date, o.paid_date,
+	od.discount, p.category, o.order_date, o.shipped_date, o.paid_date,
 	ROUND((COALESCE(od.quantity,0) * COALESCE(od.unit_price,0)),2) AS line_gross_revenue,    
 	ROUND((COALESCE(od.quantity,0) * COALESCE(od.unit_price,0) * (1 - COALESCE(od.discount,0))),2) AS line_net_revenue
 FROM order_details AS od
 LEFT JOIN orders AS o
-	ON od.order_id = o.id;
+	ON od.order_id = od.view_sales_details
+LEFT JOIN products AS p
+	ON od.product_id = p.id;
+
 
 # Seleccionamos la vista creada y respondemos la pregunta 1.
 SELECT *
