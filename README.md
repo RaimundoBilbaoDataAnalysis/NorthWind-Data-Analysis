@@ -50,3 +50,48 @@ Tras la extracción de datos mediante SQL, se ejecutó un protocolo de limpieza 
 ---
 
 --------------------------------------------------------------------------------
+
+# 📊 Fase 3: Dashboard POWER BI: Ventas, Operaciones y Logística
+
+Este proyecto representa una solución integral de **Business Intelligence**, desde la extracción y limpieza de datos crudos hasta la creación de tableros interactivos para la toma de decisiones estratégicas.
+
+---
+
+## 🛠️ Tecnologías y Metodología
+* **SQL:** Extracción, limpieza y unión de 6 fuentes de datos relacionales.
+* **Excel:** Transformación y manejo de valores nulos/pendientes.
+* **Power BI:** Modelado de datos, creación de medidas y diseño de visualizaciones interactivas.
+
+---
+
+## 📈 Visualizaciones Principales
+
+### 1. Ventas y Finanzas (Sales & Finance)
+Enfocada en el rendimiento del flujo de caja y categorías de producto.
+<img width="1299" height="915" alt="Page1_sales_finance" src="https://github.com/user-attachments/assets/46c5c641-3335-4f7b-9c0c-f71e598bf277" />
+
+
+### 2. Operaciones e Inventario (Operations & Inventory)
+Análisis de stock crítico y eficiencia de transportistas.
+<img width="1298" height="917" alt="Page2_operation_inventory" src="https://github.com/user-attachments/assets/e43394e8-ea92-45cf-8b02-7fbae594b8ef" />
+
+
+### 3. Análisis Geográfico (Geographics)
+Distribución territorial de los ingresos.
+<img width="1295" height="916" alt="Page3_geographics" src="https://github.com/user-attachments/assets/75623eda-8bec-4d5d-9251-08581dfd7714" />
+
+
+---
+
+## 🔍 Hallazgos de Negocio (Insights)
+
+* **Eficiencia Logística:** Se detectó que la **"Shipping Company A"** tiene un tiempo promedio de entrega de **3.69 días**, lo que representa un cuello de botella crítico frente a la **"Shipping Company C"**, que opera con un promedio de **0.33 días**.
+* **Salud del Inventario:** El bloque más grande de productos (aprox. **1,912 unidades**) se encuentra en estado **Crítico (Sales > Stock)**, lo que sugiere una pérdida inminente de ventas si no se acelera el reabastecimiento.
+* **Oportunidades Geográficas:** Las ciudades de **Memphis** y **Salt Lake City** concentran el mayor volumen de ingresos, lo que justifica una posible expansión de centros de distribución en esas zonas.
+
+---
+
+## 📂 Archivos del Proyecto
+* `/data`: Contiene los CSVs originales procesados.
+* `/report`: Archivo PDF con el reporte completo.
+* `Operational_Performance_Dashboard.pbix`: Archivo fuente de Power BI.
