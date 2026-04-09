@@ -23,3 +23,20 @@ Se implementó un **Semáforo de Stock** que compara la demanda real mensual con
 
 ### 🚚 Eficiencia Logística (Ejercicio 10)
 Cálculo del **Lead Time promedio** por transportista utilizando `DATEDIFF`, eliminando ruidos de datos (valores negativos o nulos) para una toma de decisiones basada en el rendimiento real.
+
+--------------------------------------------------------------------------------
+
+## 🛠️ Fase 2: Data Quality Assurance (QA) & ETL en Excel
+
+Tras la extracción de datos con SQL, se realizó una auditoría de calidad para asegurar que la información fuera apta para el análisis.
+
+### 🔍 Hallazgos y Soluciones Aplicadas
+
+# 01.REVENUES
+| Problema Detectado | Impacto en el Análisis | Solución Aplicada |
+| :--- | :--- | :--- |
+| **Inconsistencia de Decimales** | El punto `.` de SQL se leía como separador de miles en Excel. | Uso de "Texto en Columnas" para normalizar decimales. |
+| **Strings de Texto "NULL"** | El texto `"NULL"` impedía cálculos de fechas y promedios. | Reemplazo masivo de `"NULL"` por celdas vacías (`Blank`). |
+| **Formato de Moneda** | Campos financieros venían como texto. | Casteo a formato numérico/contable para permitir sumas. |
+
+--------------------------------------------------------------------------------
