@@ -5,7 +5,7 @@ El objetivo es transformar datos transaccionales en información estratégica pa
 
 Este proyecto presenta un análisis integral de la base de datos Northwind, enfocado en la **eficiencia operativa, auditoría de inventarios y rentabilidad financiera**.
 
-## 🚀 Tecnologías Utilizadas
+## 🚀 Herramientas Utilizadas
 * **SQL (MySQL):** Extracción y transformación de datos (ETL).
 * **Excel:** Limpieza de datos y Control de Calidad (QA).
 * **Power BI:** Visualización estratégica (En proceso).
