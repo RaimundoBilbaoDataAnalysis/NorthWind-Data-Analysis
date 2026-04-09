@@ -1,0 +1,13 @@
+country;city;total_net_revenue;total_orders;total_unique_orders;avg_revenue_by_orders
+USA;Memphis;15432,5;4;3;5144,17
+USA;Boise;13800;1;1;13800
+USA;Milwaukee;7371,5;6;5;1474,3
+USA;New York;4949;7;4;1237,25
+USA;Portland;4683;6;5;936,6
+USA;Miami;4644,75;7;4;1161,19
+USA;Salt Lake City;3786,5;3;2;1893,25
+USA;Las Vegas;2695;4;2;1347,5
+USA;Los Angelas;2550;5;3;850
+USA;Denver;2515,5;3;3;838,5
+USA;Seattle;2410,75;4;2;1205,38
+USA;Chicago;2272,5;8;6;378,75

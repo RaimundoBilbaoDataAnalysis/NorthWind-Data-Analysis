@@ -1,0 +1,9 @@
+employee_id,Name_employee,total_orders,total_gross_revenue,total_net_revenue,total_discount,total_discount_percentage
+1,"Nancy Freehafer",11,22255.25,21865.25,390,1.75
+9,"Anne Hellung-Larsen",7,19974.25,19974.25,0,0
+6,"Michael Neipper",4,6378.00,6378,0,0
+4,"Mariya Sergienko",7,6278.00,6278,0,0
+3,"Jan Kotas",4,5787.50,5787.5,0,0
+7,"Robert Zare",2,3786.50,3786.5,0,0
+2,"Andrew Cencini",4,2997.50,2361.5,636,21.22
+8,"Laura Giussani",1,680.00,680,0,0

@@ -1,0 +1,47 @@
+product_name;month_date;total_quantity_sales;reorder_level;target_level;safety_margin;inventory_status
+northwind_project Traders Beer;1;100;15;60;45;Critical: Sales > stock
+northwind_project Traders Dried Plums;1;40;50;75;25;Healthy: Optimal Performance
+northwind_project Traders Chocolate Biscuits Mix;1;30;5;20;15;Critical: Sales > stock
+northwind_project Traders Coffee;1;20;25;100;75;Healthy: Optimal Performance
+northwind_project Traders Chai;1;15;10;40;30;Healthy: Optimal Performance
+northwind_project Traders Dried Pears;1;10;10;40;30;Healthy: Optimal Performance
+northwind_project Traders Dried Apples;1;10;10;40;30;Healthy: Optimal Performance
+northwind_project Traders Clam Chowder;2;200;10;40;30;Critical: Sales > stock
+northwind_project Traders Chocolate Biscuits Mix;2;20;5;20;15;Healthy: Optimal Performance
+northwind_project Traders Chocolate;2;10;25;100;75;Healthy: Optimal Performance
+northwind_project Traders Coffee;3;625;25;100;75;Critical: Sales > stock
+northwind_project Traders Green Tea;3;275;100;125;25;Critical: Sales > stock
+northwind_project Traders Chocolate;3;100;25;100;75;Healthy: Optimal Performance
+northwind_project Traders Chai;3;25;10;40;30;Healthy: Optimal Performance
+northwind_project Traders Dried Plums;3;20;50;75;25;Healthy: Optimal Performance
+northwind_project Traders Curry Sauce;3;17;10;40;30;Healthy: Optimal Performance
+northwind_project Traders Boysenberry Spread;3;10;25;100;75;Healthy: Optimal Performance
+northwind_project Traders Cajun Seasoning;3;10;10;40;30;Healthy: Optimal Performance
+northwind_project Traders Chocolate Biscuits Mix;3;10;5;20;15;Healthy: Optimal Performance
+northwind_project Traders Beer;4;387;15;60;45;Critical: Sales > stock
+northwind_project Traders Ravioli;4;100;20;80;60;Critical: Sales > stock
+northwind_project Traders Mozzarella;4;90;10;40;30;Critical: Sales > stock
+northwind_project Traders Clam Chowder;4;80;10;40;30;Critical: Sales > stock
+northwind_project Traders Crab Meat;4;80;30;120;90;Healthy: Optimal Performance
+northwind_project Traders Syrup;4;50;25;100;75;Healthy: Optimal Performance
+northwind_project Traders Marmalade;4;40;10;40;30;Healthy: Optimal Performance
+northwind_project Traders Long Grain Rice;4;40;25;100;75;Healthy: Optimal Performance
+northwind_project Traders Curry Sauce;4;28;10;40;30;Healthy: Optimal Performance
+northwind_project Traders Chocolate Biscuits Mix;4;25;5;20;15;Critical: Sales > stock
+northwind_project Traders Olive Oil;4;25;10;40;30;Healthy: Optimal Performance
+northwind_project Traders Scones;4;20;5;20;15;Healthy: Optimal Performance
+northwind_project Traders Chocolate;4;10;25;100;75;Healthy: Optimal Performance
+northwind_project Traders Gnocchi;4;10;30;120;90;Healthy: Optimal Performance
+northwind_project Traders Green Tea;4;0;100;125;25;Excess: Too many stock
+northwind_project Traders Crab Meat;5;40;30;120;90;Healthy: Optimal Performance
+northwind_project Traders Curry Sauce;5;20;10;40;30;Healthy: Optimal Performance
+northwind_project Traders Almonds;5;20;5;20;15;Healthy: Optimal Performance
+northwind_project Traders Dried Plums;5;15;50;75;25;Healthy: Optimal Performance
+northwind_project Traders Boysenberry Spread;6;90;25;100;75;Healthy: Optimal Performance
+northwind_project Traders Chocolate;6;80;25;100;75;Healthy: Optimal Performance
+northwind_project Traders Fruit Cocktail;6;40;10;40;30;Healthy: Optimal Performance
+northwind_project Traders Dried Pears;6;30;10;40;30;Healthy: Optimal Performance
+northwind_project Traders Dried Apples;6;30;10;40;30;Healthy: Optimal Performance
+northwind_project Traders Cajun Seasoning;6;30;10;40;30;Healthy: Optimal Performance
+northwind_project Traders Clam Chowder;6;10;10;40;30;Healthy: Optimal Performance
+northwind_project Traders Coffee;6;5;25;100;75;Healthy: Optimal Performance
